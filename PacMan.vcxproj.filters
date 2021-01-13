@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\common">
+      <UniqueIdentifier>{ec744f6e-f1de-4e04-9cd1-66eee03450ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\common">
+      <UniqueIdentifier>{366bc343-8871-4ec8-9789-e48c64b210ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\entity">
+      <UniqueIdentifier>{aab0cc6d-6a88-4f77-8d08-cd9308cf01a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{7c2d2da2-51c2-47bc-aa70-b3bdb59f4197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\entity">
+      <UniqueIdentifier>{d133af0f-08a5-42de-9b8b-133d26a4fd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene">
+      <UniqueIdentifier>{13240a62-64ab-417b-9d4f-7161c58ded4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\entity\enemy">
+      <UniqueIdentifier>{7776a278-4e2a-417d-a45c-6b8f0780c28d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\entity\player">
+      <UniqueIdentifier>{c278d278-06e6-4c9e-a063-92985f662912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\entity\etc">
+      <UniqueIdentifier>{6b661321-bd31-40d3-82b7-79467165292b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\entity\enemy">
+      <UniqueIdentifier>{59c94099-96bb-4eee-8dae-20eb0ae45240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\entity\player">
+      <UniqueIdentifier>{8babaf36-5eb2-49d4-8309-33b21e856b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\entity\etc">
+      <UniqueIdentifier>{6243359b-49ab-4a48-839c-3486329c57f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entity\enemy\AmbushEnemy.cpp">
+      <Filter>ソース ファイル\entity\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\enemy\ChaseEnemy.cpp">
+      <Filter>ソース ファイル\entity\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\enemy\Enemy.cpp">
+      <Filter>ソース ファイル\entity\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\enemy\FickleEnemy.cpp">
+      <Filter>ソース ファイル\entity\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\enemy\RandomEnemy.cpp">
+      <Filter>ソース ファイル\entity\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\etc\Map.cpp">
+      <Filter>ソース ファイル\entity\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\etc\UIEntity.cpp">
+      <Filter>ソース ファイル\entity\etc</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\player\Player.cpp">
+      <Filter>ソース ファイル\entity\player</Filter>
+    </ClCompile>
+    <ClCompile Include="entity\GameEntityManager.cpp">
+      <Filter>ソース ファイル\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\GameInitScene.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\GameRestartScene.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\GameScene.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\SceneManager.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="scene\TitleScene.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="common\GraphicData.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Main.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Sound.cpp">
+      <Filter>ソース ファイル\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="entity\enemy\AmbushEnemy.h">
+      <Filter>ヘッダー ファイル\entity\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\enemy\ChaseEnemy.h">
+      <Filter>ヘッダー ファイル\entity\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\enemy\Enemy.h">
+      <Filter>ヘッダー ファイル\entity\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\enemy\FickleEnemy.h">
+      <Filter>ヘッダー ファイル\entity\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\enemy\RandomEnemy.h">
+      <Filter>ヘッダー ファイル\entity\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\etc\Map.h">
+      <Filter>ヘッダー ファイル\entity\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\etc\UIEntity.h">
+      <Filter>ヘッダー ファイル\entity\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\player\Player.h">
+      <Filter>ヘッダー ファイル\entity\player</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\Entity.h">
+      <Filter>ヘッダー ファイル\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\GameEntityManager.h">
+      <Filter>ヘッダー ファイル\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="entity\MoveEntity.h">
+      <Filter>ヘッダー ファイル\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\BaseScene.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\GameInitScene.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\GameRestartScene.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\GameScene.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\SceneManager.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="scene\TitleScene.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="common\GraphicData.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Main.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Singleton.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Sound.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
